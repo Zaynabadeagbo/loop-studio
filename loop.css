@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+max-width: 100%;
+width: 100%;
+height: auto;
+max-width: 1440px;
+/* padding: 50px; */
+
+}
+.first-cont{
+    background-image: url("./images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px; 
+}
+.header-top{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(0, 0%, 100%);
+    list-style-type: none;
+    width: 400px;
+}
+.navigation > li{
+
+}
+.header-text-cont{
+width: 100%;
+max-width: 1000px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 2.5em;
+    font-weight: 400;
+    width: 35%;
+    padding: 18px;
+    border: 1px solid hsl(0, 0%, 100%);
+   
+}
+.second-cont{
+    display: flex;
+    position: relative;
+    width: 30%;
+    /* left: 10%; */
+    
+   
+
+}
+.side-image{
+   padding: 70px;
+   width: 1440%;
+   height: 100vh;
+   
+   
+   
+  
+}
+
+.side-cont{
+    padding-top: 100px;
+      position: absolute;
+    top: 300px; 
+   left: 50px;
+   
+   height: 230px;
+   width: 110%;
+font-size: 15px;
+/* color: hsl(0, 0%, 0%); */
+padding: 60px;
+background-color: white;
+margin-left: 600px;
+margin-top: 50px;
+
+}
+.side-cont > p{
+    font-size: 11px;
+    font-weight: 550;
+    color: hsl(0, 0%, 55%);
+    width: 100%;
+   line-height: 20px;
+   padding-top: 25px;
+   
+}
+.grid-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+.image-cont-1{
+    background-image: url("./images/desktop/image-deep-earth.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    
+}
+.image-cont-2{
+    background-image: url("./images/desktop/image-night-arcade.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+.image-cont-3{
+    background-image: url("./images/desktop/image-soccer-team.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.image-cont-4{
+    background-image: url("./images/desktop/image-grid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-cont-5{
+    background-image: url("./images/desktop/image-from-above.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-cont-6{
+    background-image: url("./images/desktop/image-pocket-borealis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-cont-7{
+    background-image: url("./images/desktop/image-curiosity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-cont-8{
+    background-image: url("./images/desktop/image-fisheye.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-cont{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    height: 100vh;
+    padding: 50px;
+}
+h3{
+    padding-top: 80%;
+    width: 35%;
+    height: 100%;
+    font-size: 14px;
+    
+    padding-left: 20px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+}
+
+
+.grid-top > button{
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    width: 11%;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+footer{
+    background-color: hsl(0, 0%, 0%);
+   margin-top: 50px;
+   height: 100px;
+   padding: 20px;
+}
+.bottom-nav{
+    display: flex;
+    /* justify-content: space-between; */
+    color: hsl(0, 0%, 100%);
+    list-style-type: none;
+    width: 400px;
+    gap: 13px;
+    padding-top: 10px;
+    font-size: 11px;
+    
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+  
+   
+    /* align-items: end; */
+}
+.bottom-icon > p{
+   padding-top: 13px;
+}
+    
+        
+    
+    
+
+.bottom-icon{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+
+}
+@media screen and (max-width: 480px){.grid-container{
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        
+    }
+       main{
+        display: flex;
+        flex-direction: column;
+       }
+       section{
+        width: 100%;
+       }
+}
+    
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .first-cont {
+        background-image: url("./images/mobile/image-hero.jpg");
+        height: 50vh;
+        padding: 20px;
+        align-items: flex-start;
+    }
+
+    .header-top {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 10px auto;
+    }
+
+    .navigation {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 1.7em; 
+        width: 100%;
+        padding: 10px;
+        border: 2px solid white;
+    }
+
+    .second-cont {
+        width: 100%;
+        margin: 20px 0;
+        display: block;
+    }
+
+    .side-image {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .side-cont {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        background-color: white;
+    }
+
+    .grid-top {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .grid-top > button {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .grid-cont {
+        grid-template-columns: 1fr;
+        height: auto;
+        padding: 20px;
+    }
+
+    h3 {
+        padding-top: 70%;
+        font-size: 1.2em;
+        width: 100%;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px;
+    }
+
+    .bottom-nav {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 0;
+    }
+     .bottom-nav > li{
+        padding-bottom: 10px;
+    }
+
+    .bottom-icon {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding-top: 20px;
+    }
+    .bottom-icon > p{
+        padding: 0;
+    }
+}
